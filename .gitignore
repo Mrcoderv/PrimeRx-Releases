@@ -1,0 +1,33 @@
+# Ignore test installations
+test-install/
+temp/
+tmp/
+
+# Ignore build artifacts (except Release folder)
+*.pdb
+*.dll
+*.exe
+!Release/*.exe
+!Release/*.dll
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Keep only the Release folder and documentation
+!Release/
+!*.md
+!.gitignore
+!create-release.ps1
